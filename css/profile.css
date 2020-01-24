@@ -1,0 +1,261 @@
+.header{
+    background-color:#002147;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1%;
+
+  }
+  .container1{
+    width: 80%;
+    margin: auto;
+  }
+.cont1	p {
+    border: 2px solid white;
+    border-right: none;
+    border-left: none;
+    font-size: 1.3vw;
+    color: white;
+  }
+
+  .cont3	p {
+      border: 2px solid white;
+      border-right: none;
+      border-left: none;
+      font-size: 1.3vw;
+      color: white;
+    }
+  .cont1, .cont3{
+    width: 45%;
+    float: left;
+    margin-top: 2.4%;
+  }
+  .cont2{
+    width: 10%;
+    float: left;
+  }
+
+  img{
+    width:6vw;
+    height:6vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 1200px){
+    .container1{
+      width: 85%;
+    }
+    .cont1 p{
+      font-size: 8px;
+    }
+    .cont3 p{
+      font-size: 8px;
+    }
+  }
+
+body{
+font-family: 'Ubuntu', sans-serif;
+font-size: 1vw;
+box-sizing: border-box;
+}
+.container{
+width: 95%;
+}
+#name1{
+font-size: 1.2vw;
+}
+#name2{
+font-size: 1.1vw;
+color: #838491;
+}
+#menu1{
+width: 100%;
+padding: 20px;
+overflow: auto;
+}
+.photo{
+width: 15%;
+float: left;
+margin: 10px;
+}
+.photo img{
+width: 100%;
+height: 100%;
+}
+.info{
+float: left;
+width: 80%;
+height: auto;
+overflow: auto;
+padding: 20px;
+}
+.left, .right{
+width: 50%;
+overflow: auto;
+float: left;
+}
+.left{
+border-top: 2px solid grey;
+border-bottom: 2px solid grey;
+}
+.right{
+border-top: 2px solid grey;
+border-right: 2px solid grey;
+border-bottom: 2px solid grey;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.tab {
+float: left;
+background-color: white;
+width: 20%;
+height: auto;
+overflow: auto;
+margin-right: 30px;
+}
+
+.tab button {
+  display: block;
+  color: #787474;
+  background-color: white;
+  padding: 18px 16px;
+  width: 100%;
+  border: 0px solid #4822E9;
+  border-radius: 0 25px 25px 0px;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  color: #4822E8;
+}
+
+.tab button.active {
+  background-color: #E8ECFE;
+}
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+
+#menu4{
+  overflow: none;
+}
+.flex-container {
+  margin: auto;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 170px;
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 6px 6px 25px #CFCFCF, -6px 1px 25px #CFCFCF;
+  transition: all .3s;
+}
+
+.flex-container > div > div{
+  margin-top: 25px;
+}
+.flex-container p{
+  font-size: 22px;
+}
+.flex-container > div:hover{
+  transform: scale(1.08);
+}
+hr.style18 {
+  height: 30px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
+}
+hr.style18:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+#deals, #coupons{
+  width: 977.5px !important;
+  height: 700px !important;
+}
+#pie{
+  width: 320px;
+  height: 320px;
+}
+@media screen and (max-width: 1000px) {
+
+.container ul li a{
+  font-size: 7.52px;
+}
+.left{
+  border-left: 2px solid grey;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.photo{
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.info{
+  width: 100%;
+  text-align: center;
+}
+.photo img{
+  width: 300px;
+  height: 200px;
+}
+.info p{
+  font-size: 15px;
+}
+#name1{
+  font-size: 20px;
+}
+#name2{
+  font-size: 18px;
+}
+.tab{
+  width: 30%;
+}
+.tab button{
+  font-size: 10px;
+  padding: 10px;
+}
+.tabcontent{
+  width: 60%;
+  height: 220px;
+  font-size: 10px;
+}
+.tabcontent h3{
+  font-size: 15px;
+}
+.flex-container{
+  width: 85%;
+}
+.flex-container > div{
+  margin: 10px;
+  width: 100%;
+}
+table{
+  font-size: 14px;
+}
+}

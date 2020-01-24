@@ -1,0 +1,67 @@
+body{
+    background: #eee;
+    padding: 0;
+    background-image:  url("../images/scroll.jpg");
+    background-size: contain;
+}
+
+.container1{
+  width: 90%;
+  margin: auto;
+}
+
+.issue-body{
+  margin: 2% 0% 2% 0%;
+}
+
+.issues{
+  height: 800px;
+  overflow-y: auto;
+  padding-bottom: 300px;
+}
+
+.card{
+  width: 40rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.sidenav {
+  height: 550px;
+  background-color: white;
+}
+
+.sidenav p{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.sidenav2 {
+  height: 800px;
+}
+
+.list-group-horizontal{
+  width:inherit;
+}
+
+.issues .list-group-item{
+  width: 50%;
+  text-align: center;
+}
+
+.spl .list-group-item{
+  width: 50%;
+  text-align: center;
+}
+
+.p-3{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+object{
+  /* align-self: center; */
+  width:100%;
+}

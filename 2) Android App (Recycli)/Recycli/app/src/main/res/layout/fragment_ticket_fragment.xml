@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".fragments.Ticket_fragment"
+    android:background="@drawable/mygradation">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="?actionBarSize"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/colorWhite"
+            android:text="Click the button bellow to scan an object and determine if it is recyclable."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/scannedWaste"
+            android:layout_width="160dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/circle" />
+
+
+    <Button
+        android:id="@+id/scanImage"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content"
+        android:text="click image"
+        android:background="@drawable/button_style_1"
+
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Identified item is"
+                android:textSize="29sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/catagory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="catagory name"
+                android:textColor="#00ff00"
+                android:textSize="56sp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

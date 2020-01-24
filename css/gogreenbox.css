@@ -1,0 +1,59 @@
+body{
+  min-height: 800px;
+  background-image:  url("../images/scroll.jpg");
+  background-size: contain;
+}
+.centerbox{
+  padding-top: 80px;
+  text-align: center;
+}
+
+#index{
+  padding-bottom: 100px;
+}
+.centerbox a{
+  margin-left: 40px;
+
+}
+
+
+.recent{
+  width: 80%;
+  margin: auto;
+}
+
+.scrollbox{
+  width: 70%;
+  margin: auto;
+  border: 2px solid #2c774b;
+  height: 400px;
+  border-radius: 20px;
+  overflow-y: hidden;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 70px 10px 70px 10px !important;
+  max-width: 800px;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+.scrollbox li{
+  font-weight:600;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  list-style-type: none;
+  border-bottom: 2px solid #2c774b;
+  cursor: pointer;
+}
+
+.scrollbox li:hover{
+  color: green;
+}
+
+@media (min-width: 576px){
+  #index .modal-dialog {
+    top: 100px;
+      max-width: 800px !important;
+      margin: 1.75rem auto;
+  }
+}

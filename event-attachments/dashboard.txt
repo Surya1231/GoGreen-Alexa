@@ -1,0 +1,9 @@
+1. https://www.bootstrapdash.com/demo/star-admin-angular/dashboard
+
+2. http://treesflower.com/ng-pi-admin/pages/index
+
+3. https://demos.creative-tim.com/material-dashboard-angular2/dashboard
+
+4. https://demos.creative-tim.com/light-bootstrap-dashboard-angular2/dashboard
+
+5. https://demos.creative-tim.com/paper-dashboard-angular/dashboard

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">recycli</string>
+
+
+    <string name="aboutus">
+            The app majorly focuses on two aspects :
+Categorising items and determining their composition
+Materials will be rated on the eco-friendliness. Multi-Label classification will be applied on the scanned image. Based on the given categories, the rating will determine the effect of that material has on the environment. When it is lower than a particular threshold, user will know that the material is harmful and may not be degradable/recyclable.
+Waste segregation and management
+The user can find out which used products may be recyclable or organic using the app.  User will send the request for pickup of recyclable objects. The product classified as recyclable can then be picked up by the  local authorities.
+
+The major focus of the app includes influencing consumers to buy eco-friendly products and properly disposing them. Users will have an understanding of the harmful effects those (everyday) products have on the environment. The app promotes recycling and reusing of materials. Users can call responsible authority to pick up the recyclable waste.
+To pick up the recyclable waste, the app will use k-means algorithm for grouping the user requests to different clusters. Nearest available location will be notified to all the users in that area.
+
+        Team Members
+
+        Vedangi Wagh (8805127728) (vedangikwagh@gmail.com)
+        Nayan Sabnis (7016210268) (nayansabnis99@gmail.com)
+        Sarita Joshi (9168106822) (joshisarita1311@gmail.com)
+        Shraddha Varat (Mentor)
+
+
+
+    </string>
+
+    <string-array name="array_options">
+        <item>Edit Profile</item>
+        <item>Call Support</item>
+        <item>Classify</item>
+        <item>Report An Issue</item>
+        <item>About Us</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

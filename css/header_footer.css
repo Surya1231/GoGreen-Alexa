@@ -1,0 +1,130 @@
+body{
+  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+  margin: 0;
+  padding: 0;
+
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  font-family: cursive !important;
+}
+
+.usercontainer{
+  width: 90%;
+  margin: auto;
+}
+.footer{
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+#topbar .img{
+  width: 100px;
+  height: 50px;
+  background: url('../images/logo.png');
+  background-position: 30% 30%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  z-index: 10000;
+}
+
+.temp{
+  background-color: white;
+  overflow: auto;
+  position: relative;
+  top: 20px;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  z-index: 10000;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  z-index: 10000;
+  border-radius: 0px;
+}
+
+#topbar .left{
+  padding: 10px;
+  padding-top: 16px;
+  display: inline-block;
+  float: left;
+  font-size: 30px;
+}
+#topbar .right{
+  padding: 10px;
+  padding-right: 30px;
+  display: inline-block;
+  float: right;
+}
+ #topbar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#topbar .left a{
+  text-decoration: none;
+  color: black;
+}
+#topbar .left a:hover{
+  text-decoration: none;
+  color: green;
+}
+#topbar .right a{
+  text-decoration: none;
+  border: 2px solid #2c774b;
+  padding: 0.25em 0.6em;
+  transition: all .3s;
+  border-radius: 3px;
+  padding-top: 0px !important;
+}
+
+.modal-open .modal {
+    z-index: 11000!important;
+}
+
+#topbar li{
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 10px;
+}
+
+#topbar .modal-body a{
+  text-decoration: none;
+  border: none;
+  color: #2c774b;
+  padding: 0.25em 0.6em;
+  transition: all .3s;
+  border-radius: 3px;
+  padding-top: 0px !important;
+}
+
+#topbar .modal-body li{
+  text-shadow: 0.5px 0.5px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center !important;
+  width: 100%;
+  cursor: pointer;
+  padding: 15px 10px;
+}
+
+#topbar .modal-body a:hover{
+  color: #0e3e41;
+
+}
+
+#ml_e4e2c7b3_c{
+  display: none !important;
+}
+
+#topbar .modal-content{
+  background-color: #89ce92f0;
+  border: 3px solid #1e7e34;
+  border-radius: 500px;
+}
