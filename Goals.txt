@@ -1,0 +1,15 @@
+Major Goals
+	1) Garbage Truck	
+	2) Ecofriendly Finder
+	3) Alexa Game
+	4) Video
+	5) GoGreen Profile
+	6) Breathe Healthy
+
+Minor Goals
+	1) Events pe highlight
+	2) Challenegs Backend
+	3) Issue Comment
+	4) News on front page
+	5) Login Checker
+	
