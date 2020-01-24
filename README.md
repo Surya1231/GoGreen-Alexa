@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GoGreen Smart web application powered by Recycli Android App
 
 **By Team Jarvis**
@@ -18,3 +19,6 @@ GoGreen is a web application that aims at knitting individuals together to preve
 
 It is really high time we realise the urgency to act towards saving our nature. If we join hands, we can reverse the situation and we strongly believe - Together We Can and Together We Will! And for this, today we present one complete solution, our web-application GoGreen.
 
+=======
+# GoGreen-Alexa
+>>>>>>> fe7ef83b802312df87647b5b5460b493499b425f
