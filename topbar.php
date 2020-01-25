@@ -8,11 +8,11 @@
       <a href="index.php"> GoGreen </a>
     </div>
     <div class="right">
-      <ul>
+      <ul class="badi">
         <li><a href="events.php" class="btn btn-sm btn-outline-success">Event</a></li>
         <li><a href="challenges.php" class="btn btn-sm btn-outline-success">Challenges</a></li>
         <li><a href="issues.php" class="btn btn-sm btn-outline-success">Issues</a></li>
-        <li><a href="fun.php" class="btn btn-sm btn-outline-success"> FunZone </a></li>
+        <li><a href="fun.php" class="btn btn-sm btn-outline-success "> FunZone </a></li>
         <li><a href="air.php" class="btn btn-sm btn-outline-success"> Air </a></li>
         <li><a href="#" class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter">More</a></li>
         <?php  if($_SESSION["user"]!=null) {?>
@@ -20,6 +20,9 @@
       <?php  } else { ?>
         <li><a href="login.php" class="btn btn-sm btn-outline-success" >Login </a></li>
       <?php } ?>
+      </ul>
+      <ul class="chhoti">
+        <li><a href="#" class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter">More</a></li>
       </ul>
     </div>
     <div style="clear:both">

@@ -128,3 +128,30 @@ body{
   border: 3px solid #1e7e34;
   border-radius: 500px;
 }
+
+#topbar .chhoti{
+  display: block;
+}
+
+#topbar .badi{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #topbar .chhoti{
+    display: none;
+  }
+  #topbar .badi{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .img img{
+    height: 450px;
+    background-size: cover;
+  }
+  .chevron{
+    display: none;
+  }
+}

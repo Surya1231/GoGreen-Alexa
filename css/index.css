@@ -236,3 +236,32 @@ body{
 .scrollbox li:hover{
   color: green;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .scrollbox{
+    height: 150px;
+    width: 100%;
+    padding: 0px;
+  }
+  .scrollbox li{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  .col-md-8{
+    padding: 0;
+    margin: 0;
+  }
+  .rounded {
+    border-top-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  }
+  .weather{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
