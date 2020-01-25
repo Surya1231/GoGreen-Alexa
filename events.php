@@ -222,7 +222,7 @@ include("header.php");
            $end = strtotime($row['end-date']);
            $end = date('d-F-Y', $end);
            echo '<div class="mb-1 text-mute small">'.$start.' to '.$end.'</div>
-             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style="width: 100%; height: 100%;">
+             <img class="card-img-right flex-auto  d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style="width: 100%; height: 100%;">
            </div>
            <div class="flip-card-back">
              <h4><strong class="d-inline-block mb-2" style="text-transform:uppercase;">'.$row["name"].'</strong></h4>
@@ -262,7 +262,7 @@ include("header.php");
           <div class="flip-card-inner">
             <div class="flip-card-front">
             <strong class="d-inline-block mb-2 text-success" style="text-transform:uppercase;">'.$row["name"].'</strong>
-              <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style="width: 100%; height: 100%;">
+              <img class="card-img-right flex-auto  d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style="width: 100%; height: 100%;">
             </div>
             <div class="flip-card-back">
               <h4><strong class="d-inline-block mb-2 " style="text-transform:uppercase;">'.$row["name"].'</strong></h4>
