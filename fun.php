@@ -61,7 +61,7 @@
     </div>
     <div class="col-md-4 gamebox" style="text-align:center;">
       ENERGY CONSERVATION TIPS
-      <img src="images/energy2.jpg" width="100%" height="300px" onclick="func('http://www.olliesworld.com/club/gamehouse.htm', 'Energy saver')">
+      <img src="images/energy2.jpg" width="100%" height="300px" onclick="func('http://www.olliesworld.com/club/gamehouse.htm', 'Energy conservation game')">
     </div>
     <div class="col-md-4 gamebox">
       <img src="https://www.englishmaven.org/HP6/Crossword%20Puzzle%20-%20The%20Environment.htm" width="100%" height="300px" onclick="func()">
