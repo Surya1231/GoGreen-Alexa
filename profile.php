@@ -24,7 +24,7 @@
       <!-- <li><a data-toggle="tab" href="#menu3"><i class="fas fa-chart-line"></i> My Activities</a></li> -->
       <!-- <li><a data-toggle="tab" href="#menu4"><i class="fas fa-poll"></i> Complaints</a></li> -->
       <!-- <li><a data-toggle="tab" href="#menu5"><i class="fas fa-poll"></i> Student Pivot</a></li> -->
-      <li><a  href="/"><i class="fas fa-sign-out-alt"></i> Log Out</a></li>
+      <li><a  href="/"><i class="fas fa-sign-out-alt"></i>Log Out</a></li>
     </ul>
 
     <div class="tab-content">
@@ -380,6 +380,7 @@
                     </script>
 
        </div> -->
+       <a class="btn-success" href="profile.pdf" target="_blank">Download Gogreen Profile</a>
     </div>
   </div>
 
