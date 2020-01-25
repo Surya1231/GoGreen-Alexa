@@ -4,6 +4,19 @@
 <link rel="stylesheet" href="css/footer2.css">
 <link  rel="stylesheet"  href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css"  />
 <script  src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+<style media="screen">
+  #hold{
+    width: 70%;
+    height: 640px;
+    overflow: auto;
+    margin: 50px auto;
+    background-image: url('images/air.png');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+  }
+</style>
 </head>
 <body>
 <?php include('topbar.php');?>
@@ -139,11 +152,10 @@
           map.addLayer(osmLayer).addLayer(waqiLayer);
           }
         </script>
-
-
       </div>
     </div>
-
+</div>
+<div id="hold">
 </div>
 
 <?php include('footer2.php')?>

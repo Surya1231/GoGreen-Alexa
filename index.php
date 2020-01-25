@@ -59,7 +59,7 @@
           var  WAQI_URL    =  "https://tiles.waqi.info/tiles/usepa-aqi/{z}/{x}/{y}.png?token=_TOKEN_ID_";
           var  WAQI_ATTR  =  'Air  Quality  Tiles  &copy;  <a  href="http://waqi.info">waqi.info</a>';
           var  waqiLayer  =  L.tileLayer(WAQI_URL);
-          var map  =  L.map('map').setView([26.9124,  75.7873],  12);
+          var map  =  L.map('map').setView([21.9124,  80.7873],  5);
           map.addLayer(osmLayer).addLayer(waqiLayer);
         </script>
       </div>

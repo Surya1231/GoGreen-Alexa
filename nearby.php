@@ -13,14 +13,8 @@
   .nearby{
     width: 80%;
     height: 500px;
-    overflow: auto;
-    margin: 50px auto;
-    background-image: url('images/nearby.png');
-    background-size: contain;
-    background-position: center center;
-    outline: 5px solid black;
-    outline-offset: 5px;
-    border-radius: 4px;
+    margin: auto;
+    padding-top: 100px;
   }
   #topbar{
     position: relative !important;
