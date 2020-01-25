@@ -157,5 +157,24 @@
 </div>
 <div id="hold">
 </div>
+<script type="text/javascript">
+var data = null;
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+if (this.readyState === this.DONE) {
+  console.log(this.responseText);
+}
+});
+
+xhr.open("POST", "https://airvisualraygorodskijv1.p.rapidapi.com/getCity");
+xhr.setRequestHeader("x-rapidapi-host", "AirVisualraygorodskijV1.p.rapidapi.com");
+xhr.setRequestHeader("x-rapidapi-key", "457a418120msh1511d9ef28a2a4bp16b89ejsn229c2a2acd40");
+xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+
+xhr.send(data);
+</script>
 
 <?php include('footer2.php')?>
