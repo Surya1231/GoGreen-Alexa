@@ -60,9 +60,9 @@
       <div class="form-group">
         <label for="exampleInputEmail1">Category</label>
         <select class="form-control" id="sel1">
-        <option value="" > Ananlyze image </option>
-        <option value="" > Detect Object </option>
-        <option value=""> Describe  Image </option>
+        <option value="1" selected> Ananlyze image </option>
+        <option value="2" > Detect Object </option>
+        <option value="3"> Describe  Image </option>
         </select>
       </div>
     </div>
