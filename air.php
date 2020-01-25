@@ -158,15 +158,15 @@
 <div id="hold">
 </div>
 <script type="text/javascript">
-var data = null;
+var data = "state=delhi&apiKey=48fa1ae3-19c0-4e20-b72e-71af5291e5fd&country=india&city=delhi";
 
 var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
 
 xhr.addEventListener("readystatechange", function () {
-if (this.readyState === this.DONE) {
-  console.log(this.responseText);
-}
+	if (this.readyState === this.DONE) {
+		console.log(this.responseText);
+	}
 });
 
 xhr.open("POST", "https://airvisualraygorodskijv1.p.rapidapi.com/getCity");
