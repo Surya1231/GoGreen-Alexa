@@ -24,7 +24,6 @@
   }
 
   .box{
-    width: 80%;
     margin: auto;
     height: 300px;
     background-color: white;
@@ -32,6 +31,7 @@
     padding-left: 50px;
     border: 2px solid #2c774b;
     border-radius: 10px;
+    overflow-y: scroll;
   }
 
   .sp{
@@ -77,9 +77,15 @@
 <br>
 <div class="response">
   <h1> Response </h1> <hr>
-  <div class="box" id="tet1">
-    <p id= "tet"> Your response here </p>
+  <div class="row">
+    <div class="col-md-3">
+      <img id="img" src="" alt="" width="100%" height="300px">
+    </div>
+    <div class="box col-md-9" id="tet1">
+      <p id= "tet"> Your response here </p>
+    </div>
   </div>
+
 </div>
 </div>
 
@@ -87,9 +93,16 @@
 function fun(){
   console.log("here")
   var xhr = new XMLHttpRequest();
+  var s = document.getElementById("sel1").value;
   var t = document.getElementById("ur").value;
+  document.getElementById("img").src = t;
   console.log(t);
+  if(s=="1")
   var url = "https://eastus2.api.cognitive.microsoft.com/vision/v2.0/analyze";
+  else if(s=="3")
+  var url = "https://eastus2.api.cognitive.microsoft.com/vision/v2.0/describe";
+  else if(s=="2")
+  var url = "https://eastus2.api.cognitive.microsoft.com/vision/v2.0/detect"
   xhr.open("POST", url, true);
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.setRequestHeader("Ocp-Apim-Subscription-Key", "b60352e0ca414da4aebf3ad780109ee4");

@@ -54,12 +54,13 @@ function myFunction() {
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span> </button>
         <ul>
+          <li><a href="smart.php" target="_blank"> Smart AI </a></li>
           <li><a href="https://earth.nullschool.net" target="_blank"> Web View </a></li>
           <li><a href="info.php" class="">Envirentopedia</a></li><br>
           <li><a href="nearby.php" class=""> Nearby </a></li><br>
           <li><a href="#" class=""> Institutional Portal </a></li><br>
           <li><a href="gogreenbox.php" class="">GoGreen Box</a></li><br>
-          <li><a href="#" class=""> Download App </a></li><br>
+          <!-- <li><a href="#" class=""> Download App </a></li><br> -->
         </ul>
       </div>
     </div>
