@@ -79,7 +79,7 @@
   <h1> Response </h1> <hr>
   <div class="row">
     <div class="col-md-3">
-      <img id="img" src="" alt="" width="100%" height="300px">
+      <img id="img" src="" alt="Your image here" width="100%" height="300px">
     </div>
     <div class="box col-md-9" id="tet1">
       <p id= "tet"> Your response here </p>
@@ -91,7 +91,7 @@
 
 <script type="text/javascript">
 function fun(){
-  console.log("here")
+
   var xhr = new XMLHttpRequest();
   var s = document.getElementById("sel1").value;
   var t = document.getElementById("ur").value;
@@ -108,8 +108,8 @@ function fun(){
   xhr.setRequestHeader("Ocp-Apim-Subscription-Key", "b60352e0ca414da4aebf3ad780109ee4");
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
-        var t =  xhr.responseText.split(",").join("<br>");
-        document.getElementById('tet1').innerHTML =t;
+        var te =  xhr.responseText.split(",").join("<br>");
+        document.getElementById('tet1').innerHTML =te;
           var json = JSON.parse(xhr.responseText);
 
       }
