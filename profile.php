@@ -380,7 +380,7 @@
                     </script>
 
        </div> -->
-       <a class="btn-success" href="profile.pdf" target="_blank">Download Gogreen Profile</a>
+       <a class="btn-success" href="profile.pdf" target="_blank" style="text-decoration: none; padding: 5px;">Download Gogreen Profile</a>
     </div>
   </div>
 
