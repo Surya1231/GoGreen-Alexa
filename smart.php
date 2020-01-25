@@ -30,6 +30,8 @@
     background-color: white;
     padding: 10px;
     padding-left: 50px;
+    border: 2px solid #2c774b;
+    border-radius: 10px;
   }
 
   .sp{
@@ -51,16 +53,16 @@
         <label for="exampleInputEmail1">Url</label>
         <input type="text" class="form-control" id="ur" aria-describedby="emailHelp" placeholder="Enter url">
 
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <small id="emailHelp" class="form-text text-muted">Url must end with .jpg , .png , .jpeg aur similar image force. If image is saved locally use google drive to create link.</small>
       </div>
     </div>
     <div class="col-md-2">
       <div class="form-group">
         <label for="exampleInputEmail1">Category</label>
         <select class="form-control" id="sel1">
-        <option value="" > Ananlyze image </option>
-        <option value="" > Detect Object </option>
-        <option value=""> Describe  Image </option>
+        <option value="1" selected> Ananlyze image </option>
+        <option value="2" > Detect Object </option>
+        <option value="3"> Describe  Image </option>
         </select>
       </div>
     </div>
@@ -76,7 +78,7 @@
 <div class="response">
   <h1> Response </h1> <hr>
   <div class="box" id="tet1">
-    <p id= "tet"> Surya </p>
+    <p id= "tet"> Your response here </p>
   </div>
 </div>
 </div>
