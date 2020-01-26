@@ -48,60 +48,36 @@
     </nav>
 
     <div id="content" class="p-4 p-md-5 pt-5">
-
-      <div class="row">
-          <div class="col-md-12 col-lg-12 col-sm-12">
-              <div class="white-box">
-                  <h3 class="box-title"> Issue Requests </h3>
-                  <div class="table-responsive">
-                      <table class="table">
-                          <thead>
-                              <tr>
-                                  <th>#</th>
-                                  <th> User </th>
-                                  <th> Title </th>
-                                  <th> Details </th>
-                                  <th> Attachments </th>
-                                  <th> Approve </th>
-                                  <th> Discard </th>
-                              </tr>
-                          </thead>
-                          <tbody>
-                              <tr>
-                                  <td>1</td>
-                                  <td class="txt-oflo">Elite admin</td>
-                                  <td class="txt-oflo">Elite admin</td>
-                                  <td><a href="#"> view </a></td>
-                                  <td><a href="#"> view </a></td>
-                                  <td> <a href="#" class="btn btn-success"> Approve </a></td>
-                                  <td><a href="#"  class="btn btn-danger"> Decline </a></td>
-                              </tr>
-                              <tr>
-                                  <td>1</td>
-                                  <td class="txt-oflo">Elite admin</td>
-                                  <td class="txt-oflo">Elite admin</td>
-                                  <td><a href="#"> view </a></td>
-                                  <td><a href="#"> view </a></td>
-                                  <td> <a href="#" class="btn btn-success"> Approve </a></td>
-                                  <td><a href="#"  class="btn btn-danger"> Decline </a></td>
-                              </tr>
-                              <tr>
-                                  <td>1</td>
-                                  <td class="txt-oflo">Elite admin</td>
-                                  <td class="txt-oflo">Elite admin</td>
-                                  <td><a href="#"> view </a></td>
-                                  <td><a href="#"> view </a></td>
-                                  <td> <a href="#" class="btn btn-success"> Approve </a></td>
-                                  <td><a href="#"  class="btn btn-danger"> Decline </a></td>
-                              </tr>
-
-                          </tbody>
-                      </table>
-                  </div>
-              </div>
+      <form class="" action="index.html" method="post">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <label for="recipient-name" class="form-control-label">Event Name</label>
+              <select class="form-control" name="event" required>
+                <?php
+                  $sql = "SELECT * FROM event WHERE active = '1'";
+                  $result = mysqli_query($conn, $sql);
+                  if (mysqli_num_rows($result) > 0) {
+                    while($row = mysqli_fetch_assoc($result)) {
+                      $uuid=$row['host'];
+                      $hostdata = $db->SinglerunQuery("select * from user where uid='$uuid'");
+                ?>
+                <option value="<?= $row['name'] ?>"> <?= $row['name'] ?></option>
+              <?php } } ?>
+            </select>
+            </div>
           </div>
-      </div>
-
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group">
+          <label for="recipient-name" class="form-control-label">Attach Files</label><br>
+          <input type="file"  name="description"  placeholder="Attach files" required>
+        </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-primary" name="button"> submit </button>
+      </form>
     </div>
   </div>
 
